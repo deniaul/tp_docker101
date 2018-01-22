@@ -1,4 +1,3 @@
 #!/bin/bash
-cd /srv/docker/code/
-chmod 777 main
-./main
+chmod 777 a.bin
+./a.bin
