@@ -1,6 +1,5 @@
-FROM ubuntu:14.04
-RUN apt-get update
-RUN apt-get install -y gcc
+FROM ubuntu:16.04
+RUN apt-get update && apt-get install -y gcc
 RUN mkdir /opt/code
 RUN mkdir /opt/start
 WORKDIR /opt/code
